@@ -1,6 +1,6 @@
 import React from 'react'
-
 import Login from '../views/login'
+import Nav from '../views/nav'
 
 import { 
     BrowserRouter as Router, Routes, Route
@@ -11,6 +11,7 @@ export default function myRouter() {
    <Router>
         <Routes>
             <Route path="/" element={<Login/>} />
+            <Route path="/nav" element={<Nav/>} />
         </Routes>
    </Router>
     
